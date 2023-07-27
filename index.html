@@ -28,7 +28,7 @@
               colors: {
                 red: '#F85559;',
                 black: 'rgba(18, 18, 18, 0.60);',
-                dark: '#F85559;'
+                dark: '#121212;'
               }
             }
           }
@@ -38,7 +38,7 @@
 <body>
     <header class="container mx-auto">
       <!--navigation bar-->
-      <div class="navbar bg-base-100  bg-red container-lg">
+      <div class="navbar bg-base-100  bg-red  container-lg">
      
         <div class="navbar-start">
           <div class="dropdown">
@@ -100,7 +100,7 @@
       </div>
     </div>
        <!--fruit banner-->
-       <div class="hidden lg:block md:block mx-44 absolute bottom-20" id="fruit-banner">
+       <div class="hidden lg:block mx-44 shadow-lg absolute bottom-20" id="fruit-banner">
         <div class="flex bg-white px-6">
          <div class="py-12 px-12">
            <img src="./images/fruit1.png" class="mb-4" alt="grape">
@@ -129,34 +129,34 @@
       <!--Deal section-->
       <div class="flex justify-between items-center flex-wrap">
           <!--deal text-->
-        <div class="ml-2 flex-1">
-          <p class="text-5xl font-extrabold">Deal of the day</p>
-          <p class="text-xl text-black font-medium mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+        <div class="ml-2 flex-1 text-center md:text-start lg:text-start">
+          <p class="text-5xl md:text-3xl lg:text-5xl font-extrabold">Deal of the day</p>
+          <p class="text-xl md:text-base lg:text-xl text-black font-medium mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
              Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <!--countdown-->
-        <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-end flex-1">
+        <div class="grid grid-flow-col gap-5 mt-12 text-center justify-end auto-cols-max flex-1 mr-8 md">
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl ">
+            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
               <span  style="--value:29;"></span>
             </span>
              <div class="text-black">  Days </div>
           </div> <div class="mt-4"><i class="fa-solid fa-ellipsis-vertical"></i></div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
+            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
               <span style="--value:15;"></span>
             </span>
             <div class="text-black">Hours</div>
             
           </div> <div class="mt-4"><i class="fa-solid fa-ellipsis-vertical"></i></div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
+            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
               <span style="--value:25;"></span>
             </span>
             <div class="text-black">Minutes</div>
           </div> <div class="mt-4"><i class="fa-solid fa-ellipsis-vertical"></i></div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl">
+            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
               <span style="--value:08;"></span>
             </span>
             <div class="text-black">Seconds</div>
@@ -164,7 +164,7 @@
         </div>
       </div>
       <!--card section-->
-        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-12">
+        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-12 ml-12 md:ml-5 lg:ml-0">
           <!--card 1-->
           <div class="rounded-lg text-center" id="card">
             <div>
@@ -176,13 +176,13 @@
             <div class="rating rating-lg rating-half w-36">
               <input type="radio" name="rating-10" class="rating-hidden" />
               <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-red mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-200 mr-1 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
             </div>
@@ -200,13 +200,13 @@
             <div class="rating rating-lg rating-half w-36">
               <input type="radio" name="rating-10" class="rating-hidden" />
               <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-red mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-200 mr-1 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask  mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
             </div>
@@ -224,13 +224,13 @@
             <div class="rating rating-lg rating-half w-36">
               <input type="radio" name="rating-10" class="rating-hidden" />
               <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-red mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" checked />
-              <input type="radio" name="rating-10" class="bg-orange-200 mr-1 mask mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-              <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+              <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
               <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
             </div>
@@ -248,13 +248,13 @@
           <div class="rating rating-lg rating-half w-36">
             <input type="radio" name="rating-10" class="rating-hidden" />
             <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" />
-            <input type="radio" name="rating-10" class="bg-red mask mr-1 mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-2" />
             <input type="radio" name="rating-10" class="bg-red mask mask-star-2 mask-half-1" checked />
-            <input type="radio" name="rating-10" class="bg-orange-200 mr-1 mask mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
             <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-            <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
             <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
-            <input type="radio" name="rating-10" class="bg-orange-200 mask mr-1 mask-star-2 mask-half-2" />
+            <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
             <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-1" />
             <input type="radio" name="rating-10" class="bg-orange-200 mask mask-star-2 mask-half-2" />
           </div>
@@ -294,7 +294,7 @@
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content flex flex-col">
           <div class="max-w-xl">
-            <h1 class="mb-5 pt-28 text-5xl font-extrabold">Meet the team section</h1>
+            <h1 class="mb-5 pt-20 lg:pt-12 text-5xl font-extrabold">Meet the team section</h1>
             <p class="mt-6 font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
            <!--people cards-->
@@ -350,9 +350,32 @@
         
       </div>
       <!--Why section-->
-    </main>
-    <footer>
 
-    </footer>
+    </main>
+    <!--footer section-->
+   <footer class="footer footer-center bg-dark p-10 bg-base-200 text-white text-base-content rounded">
+    <div class="navbar-center flex">
+      <img src="images/logo.png" alt="logo">
+      <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+    </div>
+  <div class="grid grid-cols-3 lg:grid-cols-6 gap-4">
+    <a class="link link-hover">Home</a> 
+    <a class="link link-hover">About us</a> 
+    <a class="link link-hover">Shop</a> 
+    <a class="link link-hover">All Fruits</a> 
+    <a class="link link-hover">support</a>
+    <a class="link link-hover">My Account</a> 
+  </div> 
+  <div>
+    <div class="grid grid-flow-col gap-4">
+      <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
+      <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+      <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+    </div>
+  </div> 
+  <div>
+    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+  </div>
+</footer>
 </body>
 </html>
