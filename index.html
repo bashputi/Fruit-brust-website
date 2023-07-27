@@ -65,16 +65,16 @@
           </div>
       
 
-        <div class="navbar-center flex ml-16 md:ml-0 lg:ml-80 mr-12 md:ml-28">
+        <div class="navbar-center flex md:ml-52 lg:ml-80 ">
           <img src="images/logo.png" class="w-8 h-8 lg:w-14 md:w-14 md:h-12 lg:h-12" alt="logo">
           <a class="btn btn-ghost normal-case font-lg lg:text-xl md:mr-28">Fruit Burst</a>
         </div>
        </div>
 
-        <div id="nav-end" class="navbar-end bg-white lg:w-72 lg:ml-64" >
-          <label class="hidden lg:block"><input type="text" placeholder="search here"></label>
-          <button class="btn btn-ghost btn-circle mr-4">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden lg:block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+        <div id="nav-end" class="navbar-end bg-white lg:w-72 lg:ml-64 hidden lg:block" >
+          <label class="pl-4" ><input type="text" placeholder="search here"></label>
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
           </button>
          
         </div>
@@ -118,9 +118,9 @@
       </div>
      </div>
 
-     <div class="absolute top-4 md:top-36 lg:top-36 mx-auto container ">
-      <div class="text-center text-white lg:mb-4 mb-2 text-2xl lg:text-5xl font-bold">Exotic tastes at your <br> doorstep</div>
-      <div class="text-center"><button class="lg:py-3 px-2 lg:px-5 bg-red lg:text-lg rounded-lg text-white lg:font-bold">Shop All</button></div>
+     <div class="container  mx-auto absolute top-36 md:top-44 lg:top-72">
+      <div class="text-center text-white lg:mb-4 mb-2 text-2xl md:text-3xl lg:text-5xl font-bold">Exotic tastes at your <br> doorstep</div>
+      <div class="text-center"><button class="lg:py-3 px-2 py-1 lg:px-5 bg-red lg:text-lg rounded-lg text-white lg:font-bold">Shop All</button></div>
     </div>
 
     </div>
@@ -152,49 +152,49 @@
     </header>
     <main class="container mx-auto lg:mt-48 mt-16">
       <!--Deal section-->
-      <div class="flex justify-between items-center flex-wrap">
+      <div class="flex justify-between items-center flex-col lg:flex-row">
           <!--deal text-->
-        <div class="ml-2 flex-1 text-center md:text-start lg:text-start">
-          <p class="text-5xl md:text-3xl lg:text-5xl font-extrabold">Deal of the day</p>
-          <p class="text- md:text-base lg:text-xl text-black font-medium mt-6">Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+        <div class="ml-2 flex-1 text-center lg:text-start">
+          <p class="text-2xl lg:text-5xl font-bold lg:font-extrabold">Deal of the day</p>
+          <p class="text-base lg:text-xl text-black font-medium mt-6 w-56 lg:w-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical 
              Latin literature from 45 BC, making it over 2000 years old.</p>
         </div>
         <!--countdown-->
-        <div class="grid grid-flow-col gap-5 mt-12 text-center justify-end auto-cols-max flex-1 mr-8 md">
+        <div class="grid grid-flow-col gap-5 mt-12 text-center justify-end auto-cols-max flex-1">
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
+            <span class="countdown font-mono text-3xl lg:text-5xl">
               <span  style="--value:29;"></span>
             </span>
-             <div class="text-black">  Days </div>
+             <div class="text-black text-sm">  Days </div>
           </div> <div class="mt-4"><i class="fa-solid fa-ellipsis-vertical"></i></div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
+            <span class="countdown font-mono text-3xl lg:text-5xl">
               <span style="--value:15;"></span>
             </span>
-            <div class="text-black">Hours</div>
+            <div class="text-black text-sm">Hours</div>
             
           </div> <div class="mt-4"><i class="fa-solid fa-ellipsis-vertical"></i></div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
+            <span class="countdown font-mono text-3xl lg:text-5xl">
               <span style="--value:25;"></span>
             </span>
-            <div class="text-black">Minutes</div>
+            <div class="text-black text-sm">Mins</div>
           </div> <div class="mt-4"><i class="fa-solid fa-ellipsis-vertical"></i></div>
           <div class="flex flex-col">
-            <span class="countdown font-mono text-5xl md:text-3xl lg:text-5xl">
+            <span class="countdown font-mono text-3xl lg:text-5xl">
               <span style="--value:08;"></span>
             </span>
-            <div class="text-black">Seconds</div>
+            <div class="text-black text-sm">Secs</div>
           </div>
         </div>
       </div>
       <!--card section-->
-        <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-12 ml-12 md:ml-5 lg:ml-0">
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 mt-12 ml-4 md:ml-5 lg:ml-0">
           <!--card 1-->
           <div class="rounded-lg text-center" id="card">
             <div>
              <div class="ml-28 mt-12"> <img src="./images/fruit6.png" alt="apple card"></div>
-            <div class="font-bold text-base mt-12">12.90$-18.85$</div>
+            <div class="font-bold text-base mt-6 lg:mt-12">12.90$-18.85$</div>
              <div><hr class="w-56 ml-14 mt-6"></div>
             <div class="text-black py-6">Apples</div>
             <!--ratings-->
@@ -248,7 +248,7 @@
            <div class="rounded-lg text-center" id="card">
             <div>
              <div class="ml-28 mt-12"> <img src="./images/fruit7.png" alt="apple card"></div>
-            <div class="font-bold text-base mt-12">12.90$ - 18.85$</div>
+            <div class="font-bold text-base mt-6 lg:mt-12">12.90$ - 18.85$</div>
              <div><hr class="w-56 ml-14 mt-6"></div>
             <div class="text-black py-6">Orange</div>
             <!--ratings-->
@@ -302,7 +302,7 @@
            <div class="rounded-lg text-center" id="card">
             <div>
              <div class="ml-28 mt-12"> <img src="./images/fruit8.png" alt="apple card"></div>
-            <div class="font-bold text-base mt-12">12.90$ - 18.85$</div>
+            <div class="font-bold text-base mt-6 lg:mt-12">12.90$ - 18.85$</div>
              <div><hr class="w-56 ml-14 mt-6"></div>
             <div class="text-black py-6">Dragons</div>
             <!--ratings-->
@@ -326,7 +326,7 @@
         <div class="rounded-lg text-center" id="card">
           <div>
            <div class="ml-28 mt-12"> <img src="./images/fruit9.png" alt="apple card"></div>
-          <div class="font-bold text-base mt-12">12.90$ - 18.85$</div>
+          <div class="font-bold text-base mt-6 lg:mt-12">12.90$ - 18.85$</div>
            <div><hr class="w-56 ml-14 mt-6"></div>
           <div class="text-black py-6">Bananas</div>
           <!--ratings-->
@@ -346,12 +346,11 @@
             <div> <button class="text-red py-8">Details</button></div>
          </div>
         </div>
-        
-</div>
+      </div>
       <!--Deal button-->
        <div class="text-center"><button class="py-5 mt-12 mb-36 px-8 bg-red text-xl rounded-lg text-white font-bold">Shop All</button></div>
       <!--Meet section-->
-      <div id="meet" class="hero min-h-screen" style="background-image: url(https://bashputi.github.io/Fruit-brust-website/images/team.png);">
+      <div class="hero min-h-screen" style="background-image: url(https://bashputi.github.io/Fruit-brust-website/images/team.png);">
         <div class="hero-overlay bg-opacity-60"></div>
         <div class="hero-content text-center text-neutral-content flex flex-col">
           <div class="max-w-xl">
@@ -359,7 +358,7 @@
             <p class="mt-6 font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
           </div>
            <!--people cards-->
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-20 mt-12">
+         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mt-12">
           <!--card 1-->
             <div>
               <img class="w-36 ml-3" src="./images/member1.png" alt="people">
